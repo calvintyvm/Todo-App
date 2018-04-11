@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+
 import styles from "./styles";
 import PropTypes from "prop-types";
 
