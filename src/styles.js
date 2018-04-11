@@ -13,9 +13,10 @@ const styles = {
   input: {
     display: "flex",
     justifyContent: "space-between",
-    width: "50%",
+    width: "48.5%",
     margin: "0 auto",
-    background: "grey"
+    background: "grey",
+    padding: "10px"
   },
   list: {
     listStyleType: "none",

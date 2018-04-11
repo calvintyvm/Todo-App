@@ -46,7 +46,9 @@ class TodoItems extends Component {
 }
 
 TodoList.propTypes = {
-  todos: PropTypes.array.isRequired
+  todos: PropTypes.array.isRequired,
+  removeTodo: PropTypes.func.isRequired,
+  toggleComplete: PropTypes.func.isRequired
 };
 
 export default TodoList;

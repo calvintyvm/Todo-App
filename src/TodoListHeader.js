@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import styles from "./styles";
+import PropTypes from "prop-types";
 
 class TodoListHeader extends Component {
   render() {
@@ -9,3 +10,12 @@ class TodoListHeader extends Component {
 }
 
 export default TodoListHeader;
+
+//Fallback
+TodoListHeader.defaultProps = {
+  title: "Something To do!"
+};
+
+TodoListHeader.propTypes = {
+  title: PropTypes.string.isRequired
+};

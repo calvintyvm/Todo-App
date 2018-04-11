@@ -39,7 +39,8 @@ class TodoListFooter extends Component {
 }
 
 TodoListFooter.propTypes = {
-  todoCount: PropTypes.number.isRequired
+  todoCount: PropTypes.number.isRequired,
+  clearCompleted: PropTypes.func.isRequired
 };
 
 export default TodoListFooter;
